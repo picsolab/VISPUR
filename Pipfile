@@ -1,0 +1,47 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pytz = "==2021.3"
+python-slugify = "==5.0.2"
+argon2-cffi = "==21.3.0"
+redis = "==4.1.0"
+hiredis = "==2.0.0"
+django-environ = "==0.8.1"
+django-model-utils = "==4.2.0"
+django-allauth = "==0.47.0"
+django-crispy-forms = "==1.13.0"
+crispy-bootstrap5 = "==0.6"
+django-redis = "==5.2.0"
+ipdb = "==0.13.9"
+psycopg2-binary = "==2.9.3"
+mypy = "==0.931"
+django-stubs = "==1.9.0"
+pytest = "==6.2.5"
+pytest-sugar = "==0.9.4"
+sphinx-autobuild = "==2021.3.14"
+flake8 = "==4.0.1"
+flake8-isort = "==4.1.1"
+coverage = "==6.2"
+black = "==21.12b0"
+pylint-django = "==2.5.0"
+pre-commit = "==2.16.0"
+factory-boy = "==3.2.1"
+django-debug-toolbar = "==3.2.4"
+django-extensions = "==3.1.5"
+django-coverage-plugin = "==2.0.2"
+pytest-django = "==4.5.2"
+Pillow = "==9.0.0"
+Django = "==3.2.11"
+Werkzeug = {version = "==2.0.2", extras = ["watchdog"]}
+Sphinx = "==4.3.2"
+djangorestframework = "*"
+pandas = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,1 @@
+{"exercise_time": "float", "health_score": "float", "age": "float", "is_female": "object", "income": "float", "is_student": "object"}

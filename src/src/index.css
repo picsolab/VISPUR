@@ -1,0 +1,361 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, 'Courier New', monospace;
+}
+
+
+
+/***********************************************/
+/************** CUSTOMIZED STYLES  *************/
+/***********************************************/
+.ant-table-cell {
+  padding: 7px !important;
+  padding-bottom: 2px !important;
+  padding-top: 2px !important;
+}
+.ant-table table { 
+  font-size: 0.9rem; 
+  font-weight: 400;
+}
+
+/***********************************************/
+/* GENERATOR */
+/***********************************************/
+/* manual partition container */
+.MPContainer {
+  width: 100%; 
+  height: 15em;
+	overflow-x: scroll;
+  overflow-y: scroll;
+	white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.rect_hist {
+  stroke: none;
+  opacity: 0.5;
+  stroke-width: 0.5;
+  shape-rendering: crispEdges;
+}
+
+/***********************************************/
+/* XYSpace */
+/***********************************************/
+.XYContainer {
+  width: 100%; 
+  height: 100%;
+	overflow-x: scroll;
+  overflow-y: scroll;
+	white-space: nowrap;
+  scrollbar-width: none;
+}
+.axis path {
+  fill: none;
+  stroke: black;
+  stroke-width: 1.0;
+  shape-rendering: auto;
+}
+.axis text {
+  font-size: 12px;
+  opacity: 0.8;
+}
+.axis text:hover {
+  opacity: 0.8;
+}
+.axisLabels {
+  font-size: 13px;
+  opacity: 0.5;
+}
+.axisLabels:hover {
+  opacity: 0.8;
+}
+.legendLabels {
+  font-size: 12px;
+  opacity: 0.8;
+}
+.allgroups path {
+  opacity: 0.5;
+  stroke-width: 1px;
+}
+.allgroups circle {
+  /* stroke: black; */
+  stroke-width: 2px;
+}
+.allElligroups circle {
+  fill: #d3d3d3;
+  fill-opacity: 0.1;
+}
+.allElligroups ellipse {
+  fill: white;
+  fill-opacity: 0;
+}
+
+/***********************************************/
+/* Covariate Space */
+/***********************************************/
+.CSContainer {
+  width: 100%; 
+  height: 50%;
+	overflow-x: scroll;
+  overflow-y: scroll;
+	white-space: nowrap;
+  scrollbar-width: none;
+  /* border-radius: 4px;
+  border: 0.2px solid lightgray; */
+  /* background-color: #f9f9f9; */
+}
+
+.gridCircle{
+  fill: #cdcdcd;
+  stroke: #cdcdcd;
+}
+.spiderAxis line {
+  stroke: white;
+  stroke-width: 2px;
+}
+.spiderAxis text{
+  font-size: 10px;
+  opacity: 0.5;
+}
+.radarArea {
+  fill: gray;
+}
+.radarStroke{
+  stroke: gray;
+  stroke-width: 2px;
+  fill: none;
+}
+.radarCircle {
+  fill: black;
+  fill-opacity: 0.5;
+}
+
+/***********************************************/
+/* Storyboard Space */
+/***********************************************/
+.STContainer {
+  width: 100%; 
+  height: 88%;
+	overflow-x: scroll;
+  overflow-y: scroll;
+	white-space: nowrap;
+  scrollbar-width: none;
+}
+.groupNode rect {
+  fill: #3c2adf;
+  /* stroke: black; */
+  fill-opacity: 0.4;
+  shape-rendering: crispEdges;
+}
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+.link:hover {
+  stroke-opacity: .6;
+}
+.link line {
+  stroke: red;
+  stroke-width: 2px;
+  /* stroke-opacity: 0.3; */
+}
+
+.causeNode rect {
+  fill: #7abd2f;
+  /* stroke: black; */
+  fill-opacity: 0.4;
+  shape-rendering: crispEdges;
+}
+.outcomeYAxis path {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
+}
+.outcomeYAxis text {
+  font-size: 10px;
+  opacity: 0.8;
+}
+.outcomeYAxis text:hover {
+  opacity: 0.8;
+}
+.causeNode, .groupNode text {
+  font-size: 8px;
+  opacity: 0.5;
+  pointer-events: none;
+  /* text-shadow: 0 1px 0 #fff; */
+}
+
+.storytellingNodeLabels {
+  font-size: 10px;
+  justify-self: center;
+  opacity: 0.6;
+  stroke: gray;
+  stroke-opacity: "0.8";
+  stroke-width: 0.2;
+  /* text-decoration: underline; */
+}
+
+/***********************************************/
+/* Lollipop */
+/***********************************************/
+/* Imbalance Chart Container */
+.IBContainer {
+  width: 100%; 
+  height: 34%;
+	overflow-x: scroll;
+  overflow-y: scroll;
+	white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.llpXAxis, .llpYAxis text {
+  font-size: 12px;
+}
+
+.llpXAxis path {
+  /* stroke-width: 1.5px; */
+  stroke: #fff;
+}
+
+.llpYAxis path {
+  stroke-width: 0.5px;
+  stroke-opacity: 0.5;
+}
+
+/* .poplollipop line {
+  stroke: gray;
+  stroke-opacity: 0.3;
+}
+.poplollipop circle {
+  stroke: gray;
+  opacity: 0.5;
+  stroke-width: 0.5px;
+}
+
+.poplollipop_circle {
+  stroke: gray;
+  opacity: 0.5;
+  stroke-width: 0.5px;
+  fill: dimgray;
+}
+
+.grplollipop line {
+  stroke: gray;
+}
+.grplollipop circle {
+  stroke: gray;
+  stroke-width: 0.5px;
+  fill: dimgray;
+}
+
+.grplollipop_circle {
+  stroke: gray;
+  stroke-width: 0.5px;
+  fill: dimgray;
+} */
+
+/***********************************************/
+/* d3 Slider */
+/***********************************************/
+.g_hist_partition_allfeatures {
+  opacity: 1.0;
+  fill: lightpink;
+  /* fill: #2c7fb8; */
+  opacity: 0.5;
+}
+
+/***********************************************/
+/* d3 tooltip */
+/***********************************************/
+.d3-tooltip {
+  line-height: 1;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.95);
+  color: #fff;
+  border-radius: 4px;
+  /* border: solid 2px #f9f9f9;
+  background: white; */
+  font-size: 12px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tooltip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tooltip.n:after {
+  content: "\25BC";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}
+
+/* Eastward tooltips */
+.d3-tooltip.e:after {
+  content: "\25C0";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -8px;
+}
+
+/* Southward tooltips */
+.d3-tooltip.s:after {
+  content: "\25B2";
+  margin: 0 0 1px 0;
+  top: -8px;
+  left: 0;
+  text-align: center;
+}
+
+/* Westward tooltips */
+.d3-tooltip.w:after {
+  content: "\25B6";
+  margin: -4px 0 0 -1px;
+  top: 50%;
+  left: 100%;
+}
+
+/* id */
+#CSTitleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#CSlefttitle {
+  width: 50%;
+}
+
+#CSrightselect {
+  width: 25%;
+}
+
+#LDTitleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#LDlefttitle {
+  width: 50%;
+}
+
+#LDrightselect {
+  width: 40%;
+}

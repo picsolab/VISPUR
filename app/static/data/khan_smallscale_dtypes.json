@@ -1,0 +1,1 @@
+{"performance": "object", "signup_duration": "float", "type_of_day": "object", "hour24": "float", "month": "float", "solve_time": "float", "tspp": "float", "sesion_num": "float", "session_index": "float", "session_length": "float", "five_first_attempts": "float", "all_first_attempts": "float", "total_solving_time": "float", "all_attempts": "float", "all_problems": "float"}

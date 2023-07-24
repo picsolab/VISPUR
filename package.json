@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "d3-state-visualizer": "^1.6.0",
+    "d3-tip": "^0.9.1",
+    "d3-tooltip": "^0.0.1"
+  }
+}
